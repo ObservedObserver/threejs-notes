@@ -1,7 +1,7 @@
 import * as three from 'three'
 function main (): void {
   const renderer: three.WebGLRenderer = new three.WebGLRenderer()
-  document.querySelector('body').appendChild(renderer.domElement)
+  document.querySelector('#main').appendChild(renderer.domElement)
   renderer.setClearColor(0xeeeeee);
   const scene: three.Scene = new three.Scene()
   
